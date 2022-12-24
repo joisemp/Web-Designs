@@ -1,0 +1,17 @@
+.navbar .text-muted {
+  font-size: 16px;
+}
+.navbar b {
+  font-weight: bolder;
+  color: black;
+  font-size: 24px;
+}
+
+.list-group a {
+  color: black;
+  font-weight: 600;
+  text-decoration: none;
+}
+.list-group a:hover {
+  text-decoration: underline;
+}/*# sourceMappingURL=style.css.map */
