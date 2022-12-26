@@ -1,0 +1,77 @@
+textarea:focus,
+textarea.form-control:focus,
+input.form-control:focus,
+input[type=password]:focus,
+input[type=email]:focus,
+input[type=checkbox]:focus,
+[type=password].form-control:focus,
+[type=email].form-control:focus,
+[contenteditable].form-control:focus {
+  box-shadow: none;
+  border-color: rgb(47, 110, 245);
+}
+
+.form-check-input:checked {
+  background-color: rgb(47, 110, 245);
+  border-color: rgb(47, 110, 245);
+}
+
+.form-control {
+  border-radius: 4px !important;
+  padding: 13px 15px;
+}
+
+.primary-btn {
+  width: 100%;
+  border-radius: 4px;
+  background-color: rgb(47, 110, 245);
+  color: white;
+  padding: 10px 24px;
+}
+
+.card {
+  border: 0.1px solid rgb(209, 209, 209);
+  border-radius: 4px;
+}
+
+a {
+  text-decoration: none;
+  font-size: 16px;
+}
+a:hover {
+  text-decoration: underline;
+}
+
+.login .title-group {
+  border: none !important;
+}
+.login .title-group .brand-name {
+  color: rgb(47, 110, 245);
+  font-weight: 800;
+  font-size: 72px;
+}
+.login .title-group .text {
+  font-weight: bold;
+  font-size: 25px;
+}
+@media only screen and (min-width: 768px) {
+  .login {
+    margin-top: 3rem;
+  }
+}
+.login .container {
+  max-width: 500px;
+}
+.login .card {
+  padding: 2rem;
+}
+.login .login-form {
+  background-color: rgb(249, 252, 255);
+}
+
+.additional-links {
+  max-width: 500px;
+}
+.additional-links a {
+  color: black;
+}/*# sourceMappingURL=style.css.map */
