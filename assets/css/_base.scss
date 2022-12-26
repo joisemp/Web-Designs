@@ -1,5 +1,14 @@
 $base-color: rgb(47, 110, 245);
 
+@font-face {
+    font-family: helvetica;
+    src: url(../fonts/helvetica_neue.ttf);
+}
+
+body{
+    font-family: helvetica;
+}
+
 textarea:focus,
 textarea.form-control:focus,
 input.form-control:focus,
