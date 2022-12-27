@@ -47,11 +47,47 @@ a:hover {
   text-decoration: underline;
 }
 
+@-webkit-keyframes blinkAnimation {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
+@keyframes blinkAnimation {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+.blink {
+  -webkit-animation-name: blinkAnimation;
+          animation-name: blinkAnimation;
+  -webkit-animation-duration: 1s;
+          animation-duration: 1s;
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+}
+
 .navbar .navbar-brand {
   font-size: 28px;
   color: rgb(47, 110, 245);
   text-decoration: none;
   font-weight: bolder;
+}
+.navbar .nav-link {
+  text-decoration: none;
+  font-weight: 500;
 }
 .navbar .profile-icon-btn {
   border: none;
