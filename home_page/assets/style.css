@@ -1,0 +1,114 @@
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;700&display=swap");
+body {
+  font-family: "Ubuntu", sans-serif;
+}
+
+textarea:focus,
+textarea.form-control:focus,
+input.form-control:focus,
+input[type=password]:focus,
+input[type=email]:focus,
+input[type=checkbox]:focus,
+[type=password].form-control:focus,
+[type=email].form-control:focus,
+[contenteditable].form-control:focus {
+  box-shadow: none;
+  border-color: rgb(47, 110, 245);
+}
+
+.form-check-input:checked {
+  background-color: rgb(47, 110, 245);
+  border-color: rgb(47, 110, 245);
+}
+
+.form-control {
+  border-radius: 4px !important;
+  padding: 13px 15px;
+}
+
+.primary-btn {
+  width: 100%;
+  border-radius: 4px;
+  background-color: rgb(47, 110, 245);
+  color: white;
+  padding: 10px 24px;
+}
+
+.card {
+  border: 0.1px solid rgb(209, 209, 209);
+  border-radius: 4px;
+}
+
+a {
+  text-decoration: none;
+  font-size: 16px;
+}
+a:hover {
+  text-decoration: underline;
+}
+
+.navbar .navbar-brand {
+  font-size: 28px;
+  color: rgb(47, 110, 245);
+  text-decoration: none;
+  font-weight: bolder;
+}
+.navbar .profile-icon-btn {
+  border: none;
+  background-color: transparent;
+}
+.navbar .profile-icon-btn .notifcation-badge {
+  width: 10px;
+  height: 10px;
+  top: -2px;
+  right: 0;
+  border-radius: 50%;
+  background-color: #ff0000;
+  position: absolute;
+}
+.navbar .profile-icon {
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+  overflow: hidden;
+  border: 1px solid #ccc;
+}
+.navbar .profile-icon img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.navbar .dropdown-menu {
+  padding: 2rem 1rem 1rem 1rem;
+  border-radius: 4px;
+}
+@media screen and (min-width: 330px) {
+  .navbar .dropdown-menu {
+    min-width: 300px;
+  }
+}
+.navbar .dropdown-menu .badge {
+  background-color: #663399;
+  font-weight: 400;
+  border-radius: 50px;
+  padding: 5px 10px;
+}
+@media screen and (min-width: 330px) {
+  .navbar .dropdown-menu .badge {
+    margin-left: 1rem;
+  }
+}
+.navbar .dropdown-menu a {
+  color: rgb(0, 0, 0);
+}
+.navbar .dropdown-menu .name {
+  font-weight: bold;
+}
+.navbar .dropdown-menu .email {
+  font-size: 14px;
+}
+.navbar .dropdown-menu .profile-icon {
+  width: 72px;
+  height: 72px;
+}/*# sourceMappingURL=style.css.map */
