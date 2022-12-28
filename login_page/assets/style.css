@@ -13,12 +13,12 @@ input[type=checkbox]:focus,
 [type=email].form-control:focus,
 [contenteditable].form-control:focus {
   box-shadow: none;
-  border-color: rgb(47, 110, 245);
+  border-color: #2f6ef5;
 }
 
 .form-check-input:checked {
-  background-color: rgb(47, 110, 245);
-  border-color: rgb(47, 110, 245);
+  background-color: #2f6ef5;
+  border-color: #2f6ef5;
 }
 
 .form-control {
@@ -29,7 +29,7 @@ input[type=checkbox]:focus,
 .primary-btn {
   width: 100%;
   border-radius: 4px;
-  background-color: rgb(47, 110, 245);
+  background-color: #2f6ef5;
   color: white;
   padding: 10px 24px;
 }
@@ -83,7 +83,7 @@ a:hover {
   border: none !important;
 }
 .login .title-group .brand-name {
-  color: rgb(47, 110, 245);
+  color: #2f6ef5;
   font-weight: 800;
   font-size: 72px;
 }

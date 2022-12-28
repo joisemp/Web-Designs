@@ -13,12 +13,12 @@ input[type=checkbox]:focus,
 [type=email].form-control:focus,
 [contenteditable].form-control:focus {
   box-shadow: none;
-  border-color: rgb(47, 110, 245);
+  border-color: #2f6ef5;
 }
 
 .form-check-input:checked {
-  background-color: rgb(47, 110, 245);
-  border-color: rgb(47, 110, 245);
+  background-color: #2f6ef5;
+  border-color: #2f6ef5;
 }
 
 .form-control {
@@ -29,7 +29,7 @@ input[type=checkbox]:focus,
 .primary-btn {
   width: 100%;
   border-radius: 4px;
-  background-color: rgb(47, 110, 245);
+  background-color: #2f6ef5;
   color: white;
   padding: 10px 24px;
 }
@@ -81,7 +81,7 @@ a:hover {
 
 .navbar .navbar-brand {
   font-size: 28px;
-  color: rgb(47, 110, 245);
+  color: #2f6ef5;
   text-decoration: none;
   font-weight: bolder;
 }
@@ -147,4 +147,35 @@ a:hover {
 .navbar .dropdown-menu .profile-icon {
   width: 72px;
   height: 72px;
+}
+
+.sub-nav {
+  margin-top: 5rem;
+}
+@media screen and (min-width: 600px) {
+  .sub-nav {
+    margin-top: 8rem;
+  }
+}
+.sub-nav table {
+  max-width: 500px;
+}
+.sub-nav table .badge {
+  padding: 0.4rem 1rem 0.5rem 1rem;
+  font-size: 16px;
+  font-weight: 500;
+  background-color: #f7f7f7;
+  color: #303030;
+  border-radius: 6px;
+  border: 0.5px solid #d6d6d6;
+}
+.sub-nav table .badge:hover {
+  background-color: #f4f8ff;
+}
+.sub-nav table .active {
+  background-color: #2f6ef5;
+  color: white;
+}
+.sub-nav table .active:hover {
+  background-color: #2f6ef5;
 }/*# sourceMappingURL=style.css.map */
