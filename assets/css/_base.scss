@@ -3,6 +3,9 @@ $base-color: #2f6ef5;
 
 body {
     font-family: "Ubuntu", sans-serif;
+    .text-muted{
+        font-size: 14px;
+    }
 }
 
 textarea:focus,
