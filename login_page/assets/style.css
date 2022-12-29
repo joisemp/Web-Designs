@@ -2,6 +2,9 @@
 body {
   font-family: "Ubuntu", sans-serif;
 }
+body .text-muted {
+  font-size: 14px;
+}
 
 textarea:focus,
 textarea.form-control:focus,
