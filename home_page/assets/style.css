@@ -6,6 +6,10 @@ body .text-muted {
   font-size: 14px;
 }
 
+header {
+  background-color: white;
+}
+
 textarea:focus,
 textarea.form-control:focus,
 input.form-control:focus,
