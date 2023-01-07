@@ -1,0 +1,383 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <script src="https://kit.fontawesome.com/d2ef0bf498.js" crossorigin="anonymous"></script>
+    <link href="../assets/Bootstrap/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="assets/style.css">
+</head>
+
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg bg-light fixed-top">
+            <div class="container-md">
+                <i class="fa-brands fa-hive pe-2 navbar-brand-icon"></i>
+                <a class="navbar-brand" href="#">Interior</a>
+                <button class="navbar-toggler shadow-none" type="button" data-bs-toggle="offcanvas"
+                    data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar"
+                    aria-labelledby="offcanvasNavbarLabel">
+                    <div class="offcanvas-header">
+                        <i class="fa-brands fa-hive pe-2 navbar-brand-icon"></i>
+                        <button type="button" class="btn-close shadow-none" data-bs-dismiss="offcanvas"
+                            aria-label="Close"></button>
+                    </div>
+                    <div class="offcanvas-body">
+                        <ul class="navbar-nav justify-content-center flex-grow-1">
+                            <li class="nav-item">
+                                <a class="nav-link" aria-current="page" href="#">About</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Services</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Project</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Contact</a>
+                            </li>
+                        </ul>
+                        <div class="d-flex justify-content-center">
+                            <button class="btn primary-btn" type="button">Try For Free</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <section id="hero">
+        <div class="container-md">
+            <div class="row">
+                <div class="col-12 col-md-6 d-flex align-items-center justify-content-center order-2 order-md-1">
+                    <div>
+                        <h2 class="hero-title">
+                            Sketch luxury interior design
+                        </h2>
+                        <p class="hero-text">
+                            Bring your dream home to life with one-on-one design help & hand picked products tailored to
+                            your style, space and budget
+                        </p>
+                        <div class="cta">
+                            <button class="btn primary-btn me-md-2">Get started</button>
+                            <button class="btn secondary-btn">Contact us</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 order-1 order-md-2  d-flex justify-content-center">
+                    <img class="hero-img" src="assets/pic-1.svg" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="customers">
+        <div class="customer-group">
+            <div class="container-md">
+                <div class="row text-center">
+                    <div class="col">
+                        <img src="assets/adidas.png" alt="">
+                    </div>
+                    <div class="col">
+                        <img src="assets/amazon.png" alt="">
+                    </div>
+                    <div class="col">
+                        <img src="assets/spotify.png" alt="">
+                    </div>
+                    <div class="col">
+                        <img src="assets/asus.png" alt="">
+                    </div>
+                    <div class="col">
+                        <img src="assets/skype.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="services">
+        <div class="container-md">
+            <div class="title-group">
+                <div>
+                    <h2>What we provide</h2>
+                    <p>Bring your dream home to life with one-on-one design help & hand picked products</p>
+                </div>
+            </div>
+            <div class="services-group">
+
+                <div class="row">
+                    <div class="col d-flex justify-content-center">
+                        <div class="card">
+                            <div class="card-body">
+                                <div class="icon-wrap">
+                                    <div>
+                                        <i class="fa-solid fa-gem icon"></i>
+                                    </div>
+                                </div>
+                                <h5 class="card-title">Luxury Facilities</h5>
+                                <p class="card-text">Some quick example text to build on the card title and make up
+                                    the
+                                    bulk of the card's content.</p>
+                                <a href="#" class="card-link">Learn more</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col d-flex justify-content-center">
+                        <div class="card">
+                            <div class="card-body">
+                                <div class="icon-wrap">
+                                    <div>
+                                        <i class="fa-solid fa-dollar-sign icon"></i>
+                                    </div>
+                                </div>
+                                <h5 class="card-title">Affordable Price</h5>
+                                <p class="card-text">Some quick example text to build on the card title and make up
+                                    the
+                                    bulk of the card's content.</p>
+                                <a href="#" class="card-link">Learn more</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col d-flex justify-content-center">
+                        <div class="card">
+                            <div class="card-body">
+                                <div class="icon-wrap">
+                                    <div>
+                                        <i class="fa-brands fa-windows icon"></i>
+                                    </div>
+                                </div>
+                                <h5 class="card-title">Smooth Workflow</h5>
+                                <p class="card-text">Some quick example text to build on the card title and make up
+                                    the
+                                    bulk of the card's content.</p>
+                                <a href="#" class="card-link">Learn more</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <section id="section">
+        <div class="container-md">
+            <div class="row">
+                <div class="col-12 col-md-6 d-flex justify-content-center order-1 order-md-1">
+                    <div class="img-wrapper">
+                        <img src="assets/pic-2.svg" alt="">
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 d-flex align-items-center justify-content-center order-2 order-md-2">
+                    <div>
+                        <h2 class="title">
+                            We believe that a team makes an project better
+                        </h2>
+                        <p class="text">
+                            Bring your dream home to life with one-on-one design help & hand picked products tailored to
+                            your style, space and budget
+                        </p>
+                        <div class="d-flex justify-content-center d-md-block">
+                            <div class="btn primary-btn">Discover Now</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section id="section">
+        <div class="container-md">
+            <div class="row">
+                <div class="col-12 col-md-6 d-flex justify-content-center order-1 order-md-2">
+                    <div class="img-wrapper">
+                        <img src="assets/pic-3.svg" alt="">
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 d-flex align-items-center justify-content-center order-2 order-md-1">
+                    <div>
+                        <h2 class="title">
+                            Simple way to make stylish living room
+                        </h2>
+                        <p class="text">
+                            Bring your dream home to life with one-on-one design help & hand picked products tailored to
+                            your style, space and budget
+                        </p>
+                        <div class="d-flex justify-content-center d-md-block">
+                            <div class="btn primary-btn">Contact us</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="customer-rating">
+        <div class="text-group">
+            <div>
+                <h2 class="title">Words from our customers</h2>
+                <p class="text">
+                    Bring your dream home to life with one-on-one design help & hand picked products tailored to
+                    your style, space and budget
+                </p>
+            </div>
+        </div>
+        <div class="feedbacks">
+            <div class="container-md">
+                <div class="row">
+
+                    <div class="col d-flex justify-content-center">
+                        <div class="card">
+                            <div class="card-body">
+                                <div class="d-flex align-items-center">
+                                    <img src="assets/avatar-1.jpg" width="50px" style="border-radius: 50%;" alt="">
+                                    <h5 class="card-title ms-3">Harvie Hart</h5>
+                                </div>
+                                <hr>
+                                <p class="card-text">In publishing and graphic design, Lorem ipsum is a placeholder text
+                                    commonly used to demonstrate the visual form of a document or a typeface without
+                                    relying on meaningful content. Lorem ipsum may be used as a placeholder before final
+                                    copy is available.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col d-flex justify-content-center">
+                        <div class="card">
+                            <div class="card-body">
+                                <div class="d-flex align-items-center">
+                                    <img src="assets/avatar-2.jpg" width="50px" style="border-radius: 50%;" alt="">
+                                    <h5 class="card-title ms-3">Brook Malan</h5>
+                                </div>
+                                <hr>
+                                <p class="card-text">In publishing and graphic design, Lorem ipsum is a placeholder text
+                                    commonly used to demonstrate the visual form of a document or a typeface without
+                                    relying on meaningful content. Lorem ipsum may be used as a placeholder before final
+                                    copy is available.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col d-flex justify-content-center">
+                        <div class="card">
+                            <div class="card-body">
+                                <div class="d-flex align-items-center">
+                                    <img src="assets/avatar-3.jpg" width="50px" style="border-radius: 50%;" alt="">
+                                    <h5 class="card-title ms-3">Connie Mirsa</h5>
+                                </div>
+                                <hr>
+                                <p class="card-text">In publishing and graphic design, Lorem ipsum is a placeholder text
+                                    commonly used to demonstrate the visual form of a document or a typeface without
+                                    relying on meaningful content. Lorem ipsum may be used as a placeholder before final
+                                    copy is available.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section id="newsletter">
+        <div class="container-md">
+            <div class="text-group mb-3">
+                <div>
+                    <h2 class="title">Subscribe to our Newsletter</h2>
+                    <p class="text">
+                        Bring your dream home to life with one-on-one design help & hand picked products tailored to
+                        your style, space and budget
+                    </p>
+                </div>
+            </div>
+            <div class="form-group">
+                <div>
+                    <input type="text" placeholder="Enter your email">
+                    <button class="primary-btn">Subscribe</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+
+            <div class="row">
+                <div class="col-12 col-md-4 col-lg-3 order-4 order-md-1 mb-3">
+                    <div>
+                        <div class="logo mb-3">
+                            <i class="fa-brands fa-hive pe-2 navbar-brand-icon"></i>
+                            <a class="navbar-brand" href="#">Interior</a>
+                        </div>
+                        <p>address line 1</p>
+                        <p>address line 2</p>
+                        <p>&#169; 2022 INTERIOR, All rights reserved</p>
+                    </div>
+                </div>
+
+                <div class="col-12 col-md-4 col-lg-3 order-1 order-md-2 mb-3">
+                    <div class="about">
+                        <h3 class="title mb-3">About us</h3>
+                        <a href="#">
+                            <p>Our story</p>
+                        </a>
+                        <a href="#">
+                            <p>Designer</p>
+                        </a>
+                        <a href="#">
+                            <p>Craftmanship</p>
+                        </a>
+                        <a href="#">
+                            <p>Sustainablity</p>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="col-12 col-md-4 col-lg-3 order-2 order-md-3 mb-3">
+                    <div class="support">
+                        <h3 class="title mb-3">Support</h3>
+                        <a href="#">
+                            <p>FAQ's</p>
+                        </a>
+                        <a href="#">
+                            <p>Shipping and Returns</p>
+                        </a>
+                        <a href="#">
+                            <p>Care guide</p>
+                        </a>
+                        <a href="#">
+                            <p>Warrenty</p>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="col-12 col-md-4 col-lg-3 order-3 order-md-4 mb-3">
+                    <div class="contact">
+                        <h3 class="title mb-3">Contact us</h3>
+                        <p><i class="fa-solid fa-mobile-screen-button pe-2"></i>+91 238762983</p>
+                        <p><i class="fa-solid fa-envelope pe-2"></i>example@domain.com</p>
+                    </div>
+                </div>
+            </div>
+
+            <hr>
+
+            <div class="d-flex justify-content-center">
+                <a href="">Privacy Policy</a> <span class="px-3">|</span> <a href="">Tearms and Conditions</a>
+            </div>
+
+        </div>
+    </footer>
+
+
+    <script src="../assets/Bootstrap/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
