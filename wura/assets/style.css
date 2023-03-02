@@ -1,0 +1,266 @@
+@import url("https://fonts.googleapis.com/css2?family=MuseoModerno:wght@900&family=Ubuntu:wght@300;400;700&display=swap");
+body {
+  font-family: "Ubuntu", sans-serif;
+  font-size: 16px;
+}
+
+.btn-primary {
+  font-weight: 600;
+  padding: 0.25rem 1rem;
+  background-color: #282852;
+  border-color: #282852;
+}
+.btn-primary:hover {
+  background-color: #2a2a6b;
+  border-color: #2a2a6b;
+}
+
+.btn-outline-primary {
+  font-weight: 600;
+  padding: 0.25rem 1rem;
+  color: #282852;
+  border-color: #282852;
+}
+.btn-outline-primary:hover {
+  color: white;
+  background-color: #282852;
+  border-color: #282852;
+}
+
+.navbar {
+  background-color: white;
+}
+.navbar .navbar-brand {
+  font-family: "MuseoModerno", cursive;
+  color: #282852;
+  font-size: 24px;
+}
+.navbar .navbar-toggler {
+  border: none;
+}
+.navbar .navbar-nav .nav-item {
+  margin: 0 5px;
+}
+.navbar .navbar-nav .nav-item .active {
+  color: #282852;
+}
+
+#hero {
+  margin-top: 6rem;
+  padding: 3rem 0;
+}
+#hero .text-wrap {
+  max-width: 540px;
+}
+#hero .text-wrap h1 {
+  font-size: 3.5rem;
+  font-weight: bolder;
+}
+#hero .text-wrap h1 span {
+  color: #aaaaaa;
+}
+#hero .hero-sub-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+#hero .hero-sub-text .sub-text-wrap {
+  max-width: 430px;
+  margin-top: auto;
+  font-weight: 500;
+  line-height: 26px;
+}
+
+#hero-img .img-container {
+  height: 550px;
+  background-image: url("https://images.pexels.com/photos/2678468/pexels-photo-2678468.jpeg?auto=compress&cs=tinysrgb");
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.divider hr {
+  border-width: 2px;
+  color: #7e7e7e;
+}
+
+#details {
+  padding: 3rem 0;
+}
+#details .text-wrap {
+  max-width: 400px;
+}
+#details .text-wrap h1 {
+  font-size: 3.5rem;
+  font-weight: bolder;
+}
+#details .sub-text {
+  max-width: 560px;
+}
+#details .sub-text .sub-title {
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 40px;
+}
+#details .sub-text p {
+  line-height: 26px;
+}
+
+#testimonial {
+  padding-bottom: 5rem;
+}
+@media only screen and (min-width: 992px) {
+  #testimonial {
+    padding: 3rem 0;
+  }
+}
+#testimonial .testimonial-person .card {
+  padding: 1rem;
+  border: none;
+}
+#testimonial .testimonial-person .card .profile-icon {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  overflow: hidden;
+  background-image: url("https://images.pexels.com/photos/3778680/pexels-photo-3778680.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+  background-position: center;
+  background-size: cover;
+}
+#testimonial .testimonial-person .card .text-muted {
+  font-size: 14px;
+}
+#testimonial .quote {
+  max-width: 500px;
+  color: black;
+}
+#testimonial .quote h1 {
+  line-height: 50px;
+}
+
+#team {
+  padding-top: 4rem;
+  background-color: whitesmoke;
+}
+@media only screen and (min-width: 992px) {
+  #team {
+    padding: 4rem 0 8rem 0;
+  }
+}
+#team .heading {
+  max-width: 370px;
+}
+#team .heading h1 {
+  font-weight: bold;
+  font-size: 3.5rem;
+}
+#team .team-memebers-wrap .card {
+  background: none;
+  border: none;
+  border-radius: 0;
+}
+#team .team-memebers-wrap .card .card-body {
+  padding: 0;
+  margin-top: 12px;
+}
+#team .team-memebers-wrap .card .card-body h5 {
+  font-weight: 600;
+}
+#team .team-memebers-wrap .card .card-body .text-muted {
+  font-size: 14px;
+}
+#team .team-memebers-wrap .card img {
+  height: 300px;
+  width: 250px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  border-radius: 5px;
+}
+
+#join-team {
+  background-color: whitesmoke;
+  padding: 3rem 0 6rem 0;
+}
+#join-team .text-wrap {
+  max-width: 400px;
+}
+#join-team .text-wrap h1 {
+  font-size: 3.5rem;
+  font-weight: bolder;
+}
+#join-team .sub-text {
+  max-width: 560px;
+}
+#join-team .sub-text p {
+  line-height: 26px;
+  color: black;
+}
+#join-team .sub-text p a {
+  font-size: 18px;
+  color: black;
+  font-weight: 600;
+}
+
+#questions {
+  padding: 6rem 0;
+  background-color: #003f51;
+  color: #ffffff;
+}
+#questions .text-wrap {
+  max-width: 500px;
+  margin-bottom: 2rem;
+}
+#questions .text-wrap h1 {
+  font-size: 3.5rem;
+  font-weight: bolder;
+}
+#questions .sub-text-wrap {
+  margin-bottom: 4rem;
+  max-width: 370px;
+}
+#questions .sub-text-wrap p {
+  line-height: 30px;
+  color: #c5c5c5;
+}
+#questions .links {
+  font-size: 18px;
+  align-items: center;
+}
+#questions .links .btn {
+  background-color: #ffffff;
+  color: #003f51;
+  margin-right: 2rem;
+  border-color: #ffffff;
+  padding: 1rem 2rem;
+  font-weight: bold;
+}
+#questions .links a {
+  color: #ffffff;
+}
+#questions .img img {
+  height: 540px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  border-radius: 1rem;
+}
+
+#footer {
+  background-color: #f5f5f5;
+  padding: 6rem 0 4rem 0;
+}
+#footer .link-group {
+  margin-bottom: 2rem;
+}
+#footer .title {
+  max-width: 300px;
+}
+#footer .title p {
+  line-height: 30px;
+  color: #313131;
+}
+#footer a {
+  color: #181818;
+  text-decoration: none;
+}
+#footer .additionals {
+  padding-top: 3rem;
+}/*# sourceMappingURL=style.css.map */
